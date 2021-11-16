@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+	
+}
+
+.navbar ul {
+	position: fixed;
+	top: 0;
+	left: 0;
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+	display: inline;
+	float: left;
+}
+
+.nav-link {
+	display: block;
+	padding: 8px;
+	background: rgb(250, 177, 188);
+	color: white;
+}
+
+.nav-link:hover {
+	background: rgb(243, 151, 165);
+	color: white;
+}
+
+#hero-section {
+	height: 80vh;
+	min-height: 400px;
+	display: flex;
+	flex-direction:row-reverse;
+	align-items: center;
+	justify-content: space-around;
+
+
+	background-color: rgb(197, 214, 134);
+}
+
+#hero-image {
+	height: 200px;
+	background: chartreuse;
+}
+
+#projects-section {
+	height: 100vh;
+	background: salmon;
+}
+
+
