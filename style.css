@@ -62,14 +62,15 @@ body {
 
 .project-card {
 	height: 300px;
-	width: 300px;
+	width: 250px;
 	background: white;
+	border-radius: 5px;
 	/* margin: 25px; */
 	
 	/* Flexbox */
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 
 	/* Off Hover animation to revert to original state */
@@ -84,9 +85,13 @@ body {
 	transition: all 0.3s ease-in-out;
 }
 
+.project-desc {
+	font-size: 12px;
+	width: 70%;
+}
+
 .project-image {
 	height: 50%;
-	width: 80%;
+	width: 85%;
 	background: red;
-	
 }
